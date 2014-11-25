@@ -1,0 +1,15 @@
+---------------
+Jennic Demo Kit
+---------------
+
+This is the code provided with Jennic Demo Kit (Home Sensor Application). I
+simply put them together with a makefile to enable compilation on Linux. Check
+out the makefile to identify the expected path for ba2 toolchain.
+
+--------
+Building
+--------
+
+1. Run 'make base @ rotr @ node' (coordinator/router/end_device)
+2. Edit location 0x30 - put in a valid 8-byte MAC address
+3. Use my1jenflash to program JN5148 devices...
